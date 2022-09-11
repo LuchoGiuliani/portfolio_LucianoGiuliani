@@ -1,0 +1,28 @@
+:root {
+  font-family: 'Tinos', serif;
+  background-color: #1f4872;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+h1 {
+  color: #ABC5E3;
+  font-weight: 500;
+  font-size: 75px;
+  padding: 0%;
+  margin: 0%;
+}
+ .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.contact_img img {
+  width: 75px;
+  color: #ABC5E3;
+}
+
+
