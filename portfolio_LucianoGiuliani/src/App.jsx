@@ -1,20 +1,30 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
 
+import './App.css'
+import Life from './Register.jsx'
+
+import Saludo from './saludo.jsx'
 
 function App() {
-  
 
   return (
+  <>
     <body>
-      <navbar className="logo">
+    <div>
+        <Saludo titulo="Welcome"subtitulo="Bye bye" />
+      </div>
+
+      
+      <div className="logo">
         <img src="/src/assets/logo.png" alt="" />
-      </navbar>
+      </div>
+      <div className='aboutMe_container'>
       <div className="aboutMe">
-        <h1>About Me</h1>
+        <h1>About Me
+        </h1>
+      <div className='line'><img src="/src/assets/linea.png" alt="" /></div>
         <div className='line'><img src="/src/assets/linea.png" alt="" /></div>
-        <div className='line'><img src="/src/assets/linea.png" alt="" /></div>
+      </div>
       <div className="foto">
         <img src="/src/assets/foto.png" alt="" />
       </div>
@@ -41,6 +51,8 @@ function App() {
         <div className='line'><img src="/src/assets/linea.png" alt="" /></div>
       </div>
       <div className="skills_list">
+        <Life />
+        
         <ul>
           <li>Node Js</li>
           <li>React</li>
@@ -73,6 +85,7 @@ function App() {
 
 
     </body>
+    </>
   )
 }
 

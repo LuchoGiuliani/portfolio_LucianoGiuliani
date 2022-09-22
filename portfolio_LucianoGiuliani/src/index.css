@@ -1,6 +1,6 @@
 :root {
-  font-family: 'Tinos', serif;
-  background-color: #1f4872;
+  font-family: 'Lora', serif;
+  background-color: #1C1F37;
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
@@ -10,9 +10,12 @@
 h1 {
   color: #ABC5E3;
   font-weight: 500;
-  font-size: 75px;
+  font-size: 50px;
   padding: 0%;
   margin: 0%;
+}
+p {
+  color: #ABC5E3;
 }
  .logo {
   display: flex;
@@ -23,6 +26,30 @@ h1 {
 .contact_img img {
   width: 75px;
   color: #ABC5E3;
+}
+
+
+.aboutMe_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+.aboutMe_parrafo p{
+  text-align: center;
+  font-weight: 400;
+  padding: 2rem 10rem;
+
+}
+.line{
+  height: 12px;
+
+}
+.line img:nth-child(n)  {
+  width: 220px;
+  
+
 }
 
 
